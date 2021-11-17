@@ -1,0 +1,11 @@
+[package]
+name = "nobori"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["proc-macro"]
+
+[dependencies]
+syn = { version = "1.0.14", features = ["full", "extra-traits"] }
+quote = "1.0.2" 
